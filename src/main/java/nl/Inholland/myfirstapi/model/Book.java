@@ -11,7 +11,7 @@ public class Book
     private String publisher;
     private int copies;
     //@JsonProperty("author")
-    private Author author;
+    private Author author; // because why not? I wanna know how to make it with a nested object too xD
 
     public Book(String title, String publisher, int copies, Author author)
     {
